@@ -25,5 +25,7 @@ This section will follow the Red, Green, Refactor process of TDD.
 
 ## Bonus Activity - Add search functionality to the GUI
 The final step is to implement search functionality into the GUI.
+
+## Additional Challenges
 + Ability to sort contacts by first name, last name, email, or phone number.
 + Validation for the email and phone number fields in the **Contact** class (i.e., ensure that the email is a valid email address and the phone number is a valid Australian phone number).
