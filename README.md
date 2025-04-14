@@ -10,7 +10,7 @@ AIM: Learn the steps required to exercise TDD as the application development pro
 
 ## Activity 1 - Preparation - Setting up the Project
 
-Clone the repository and switch to the "sqlite" branch. You will need to install the sqlite JDBC driver as well as JUnit 5 however the latter should be installed.
+Clone the repository and switch to the "sqlite" branch. You will need to install the sqlite JDBC driver as well as JUnit 5 (JUnit 5 should already be installed - Check pom file).
 
 ![Clone repo instructions command](/images/clonerepo8.png)
 
@@ -25,8 +25,5 @@ This section will follow the Red, Green, Refactor process of TDD.
 
 ## Bonus Activity - Add search functionality to the GUI
 The final step is to implement search functionality into the GUI.
-
-> [!TIP]
-> Additional Functionality Challenge
 + Ability to sort contacts by first name, last name, email, or phone number.
 + Validation for the email and phone number fields in the **Contact** class (i.e., ensure that the email is a valid email address and the phone number is a valid Australian phone number).
